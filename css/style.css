@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 200px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #810000;    
+}
+
+main img { 
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+
+#intro {
+    font-family: cursive;
+    text-align: center;
+    color: #810000;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.uni{
+    font-family: cursive;
+    text-align: center;
+    color: #810000;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.work{
+    font-family: cursive;
+    text-align: center;
+    color: #810000;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.hobbies {
+    font-family: cursive;
+    text-align: center;
+    color: #810000;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+
+body {
+    background-color: #eeebdd;
+}
+
+.order {
+    text-align: center;
+    color: #ce1212;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.order2 {
+    color: #ce1212;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.para {
+    text-align: center;
+    color: #ce1212;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.unorder {
+    color: #ce1212;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    text-align: center;
+    font-family: cursive;
+    color: #ce1212;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
