@@ -22,10 +22,13 @@ alert('You are GOD DAMN RIGHT');
 
 alert('Answer 5 Question to enter my HEART\n من الاخر بدي اقززك');
 
-let score = 0;
-let mGame = prompt('Question Number 1 \nAm I a Gamer?');
+//Q1
 
-switch (mGame.toUpperCase()) {
+let score = 0;
+let question1 = prompt('Question Number 1 \nAm I a Gamer?');
+function firstQue(userInput){
+
+switch (userInput.toUpperCase()) {
 case 'YES':
 case 'Y':
   alert('You Are Rock');
@@ -37,11 +40,18 @@ case 'N':
   score--;
   break;
 }
+}
+firstQue (question1);
+
 console.log(score);
 
-let mWeight = prompt('Question Number 2 \nAm I fat?');
 
-switch (mWeight.toUpperCase()) {
+//Q2
+
+let question2 = prompt('Question Number 2 \nAm I fat?');
+function secQues(userInput) {
+
+switch (userInput.toUpperCase()) {
 case 'YES':
 case 'Y':
   score - 2;
@@ -53,11 +63,18 @@ case 'N':
   alert('Habibi, you are right?');
   break;
 }
+}
+secQues (question2);
 console.log(score);
 
+//Q3
 
-let mTv = prompt('Question Number 3 \nAm I a Breaking Bad Fans ?');
-switch (mTv.toUpperCase()) {
+
+
+let question3 = prompt('Question Number 3 \nAm I a Breaking Bad Fans ?');
+function thirdQue(userInput) {
+
+switch (userInput.toUpperCase()) {
 case 'YES':
 case 'Y':
   score++;
@@ -68,11 +85,16 @@ case 'N':
   alert('Go watch Cartoon Network');
   break;
 }
+}
+thirdQue (question3);
 console.log(score);
 
 
-let mSport = prompt('Question Number 4 \nAm I a Basketball fan?');
-switch (mSport.toUpperCase()) {
+//Q4
+
+let question4 = prompt('Question Number 4 \nAm I a Basketball fan?');
+function fourthQue(userInput) {
+switch (userInput.toUpperCase()) {
 case 'YES':
 case 'Y':
   alert('Yalaaaa, lets run');
@@ -83,11 +105,15 @@ case 'N':
   alert('Lazzzzzzyyy!');
   break;
 }
+}
+fourthQue (question4);
 console.log(score);
 
+//Q5
 
-let mFood = prompt('Question Number 5 \nAm I a food fan?');
-switch (mFood.toUpperCase()) {
+let question5 = prompt('Question Number 5 \nAm I a food fan?');
+function fifthQue(userInput){
+switch (userInput.toUpperCase()) {
 case 'YES':
 case 'Y':
   score++;
@@ -98,13 +124,21 @@ case 'N':
   alert('I think I am going to eat you');
   break;
 }
+}
+fifthQue (question5);
 console.log(score);
+
+
 
 alert('Now game #2 \nI have a number and you need to guess it');
 
+//Q6
 
-let userInput = parseInt(prompt('My number is between 10 to 20 and it is a single number'));
+let question6= parseInt(prompt('My number is between 10 to 20 and it is a single number'));
 let count = 0;
+function sixthQue(userInput) {
+
+
 
 for (let i = 0; i < 4; i++) {
   if (userInput > 17) {
@@ -124,12 +158,19 @@ for (let i = 0; i < 4; i++) {
 if (count == 4) {
   alert('The number is 17 Habibi');
 }
+}
+sixthQue (question6);
 console.log(score);
 
+//Q7
+
 let nFood = ['MUNSEF', 'BURGER', 'SHAWERMA', 'FRIES', 'FISH', 'MAQLOBEH'];
-let answer = prompt('what is my favorite food ?');
+let question7 = prompt('what is my favorite food ?');
+
 answer = answer.toUpperCase();
 let counter = 0;
+function seventhQue(userInput){
+
 for (let i = 0; i < 6; i++) {
   if (answer === nFood[0] || answer === nFood[1] || answer === nFood[2] || answer === nFood[3] || answer === nFood[4] || answer === nFood[5]) {
     alert('Correct ' + answer + ' is one of the favorite food');
@@ -145,8 +186,10 @@ for (let i = 0; i < 6; i++) {
 if (counter == 6) {
   alert('You have consumed all your guesses and my favorite food are the following \nMunsef, Burger, Shawerma, Fries, Fish and Maqlobeh');
 }
-
+}
+seventhQue(question7);
 console.log(score);
+
 alert(uName + ' Your score is ' + score);
 
 if (score > 5) {
