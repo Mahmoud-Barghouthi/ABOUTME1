@@ -1,3 +1,18 @@
+/* 
+   body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url(http://bit.ly/2gPLxZ4);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+   } */
+   
 h1 {
     text-align: center;
     font-size: 50px;
@@ -12,24 +27,31 @@ nav ul li {
     
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
-    color: #810000;    
+    color: #ffffff;    
 }
 
+main nav ul li a {
+    text-decoration: none;
+    color: #ffffff;    
+}
+/* body {
+    background-image: url(https://www.wallpapertip.com/wmimgs/38-382602_3d-animated-backgrounds-wallpaper-best-hd-wallpapers.jpg);
+} */
 main img { 
     width: 200px;
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
 #intro {
     font-family: cursive;
     text-align: center;
-    color: #810000;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -37,7 +59,7 @@ main img {
 .uni{
     font-family: cursive;
     text-align: center;
-    color: #810000;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 40px;
 }
@@ -45,7 +67,7 @@ main img {
 .work{
     font-family: cursive;
     text-align: center;
-    color: #810000;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 40px;
 }
@@ -53,26 +75,34 @@ main img {
 .hobbies {
     font-family: cursive;
     text-align: center;
-    color: #810000;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 40px;
 }
 
-
-body {
-    background-color: #eeebdd;
+.funny{
+    font-family: cursive;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
+body {
+        background-image: url(https://wallpaperaccess.com/full/1415289.jpg);
+        background-color: #000000;   
+        background-image: 0.5;
+    }
 
 .order {
     text-align: center;
-    color: #ce1212;
+    color: #ffffff;
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .order2 {
-    color: #ce1212;
+    color: #ffffff;
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -81,13 +111,13 @@ body {
 
 .para {
     text-align: center;
-    color: #ce1212;
+    color: #ffffff;
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .unorder {
-    color: #ce1212;
+    color: #ffffff;
     font-family: cursive;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -96,7 +126,7 @@ body {
 footer p {
     text-align: center;
     font-family: cursive;
-    color: #ce1212;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -106,3 +136,4 @@ footer img {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
