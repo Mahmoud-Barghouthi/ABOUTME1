@@ -52,40 +52,40 @@ main img {
     font-family: cursive;
     text-align: center;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .uni{
     font-family: cursive;
     text-align: center;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .work{
     font-family: cursive;
     text-align: center;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .hobbies {
     font-family: cursive;
     text-align: center;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .funny{
     font-family: cursive;
     text-align: center;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 body {
         background-image: url(https://wallpaperaccess.com/full/1415289.jpg);
@@ -97,15 +97,15 @@ body {
     text-align: center;
     color: #ffffff;
     font-family: cursive;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .order2 {
     color: #ffffff;
     font-family: cursive;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 
@@ -113,27 +113,27 @@ body {
     text-align: center;
     color: #ffffff;
     font-family: cursive;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .unorder {
     color: #ffffff;
     font-family: cursive;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 footer p {
     text-align: center;
     font-family: cursive;
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 footer img {
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 

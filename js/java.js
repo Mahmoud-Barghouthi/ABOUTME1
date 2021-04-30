@@ -28,18 +28,18 @@ let score = 0;
 let question1 = prompt('Question Number 1 \nAm I a Gamer?');
 function firstQue(userInput){
 
-switch (userInput.toUpperCase()) {
-case 'YES':
-case 'Y':
-  alert('You Are Rock');
-  score++;
-  break;
-case 'NO':
-case 'N':
-  alert('You lost a point');
-  score--;
-  break;
-}
+  switch (userInput.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    alert('You Are Rock');
+    score++;
+    break;
+  case 'NO':
+  case 'N':
+    alert('You lost a point');
+    score--;
+    break;
+  }
 }
 firstQue (question1);
 
@@ -51,18 +51,18 @@ console.log(score);
 let question2 = prompt('Question Number 2 \nAm I fat?');
 function secQues(userInput) {
 
-switch (userInput.toUpperCase()) {
-case 'YES':
-case 'Y':
-  score - 2;
-  alert('You lost 2 points');
-  break;
-case 'NO':
-case 'N':
-  score++;
-  alert('Habibi, you are right?');
-  break;
-}
+  switch (userInput.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    score - 2;
+    alert('You lost 2 points');
+    break;
+  case 'NO':
+  case 'N':
+    score++;
+    alert('Habibi, you are right?');
+    break;
+  }
 }
 secQues (question2);
 console.log(score);
@@ -74,17 +74,17 @@ console.log(score);
 let question3 = prompt('Question Number 3 \nAm I a Breaking Bad Fans ?');
 function thirdQue(userInput) {
 
-switch (userInput.toUpperCase()) {
-case 'YES':
-case 'Y':
-  score++;
-  alert('You Are SOOO RIGHT');
-  break;
-case 'NO':
-case 'N':
-  alert('Go watch Cartoon Network');
-  break;
-}
+  switch (userInput.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    score++;
+    alert('You Are SOOO RIGHT');
+    break;
+  case 'NO':
+  case 'N':
+    alert('Go watch Cartoon Network');
+    break;
+  }
 }
 thirdQue (question3);
 console.log(score);
@@ -94,17 +94,17 @@ console.log(score);
 
 let question4 = prompt('Question Number 4 \nAm I a Basketball fan?');
 function fourthQue(userInput) {
-switch (userInput.toUpperCase()) {
-case 'YES':
-case 'Y':
-  alert('Yalaaaa, lets run');
-  score++;
-  break;
-case 'NO':
-case 'N':
-  alert('Lazzzzzzyyy!');
-  break;
-}
+  switch (userInput.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    alert('Yalaaaa, lets run');
+    score++;
+    break;
+  case 'NO':
+  case 'N':
+    alert('Lazzzzzzyyy!');
+    break;
+  }
 }
 fourthQue (question4);
 console.log(score);
@@ -113,17 +113,17 @@ console.log(score);
 
 let question5 = prompt('Question Number 5 \nAm I a food fan?');
 function fifthQue(userInput){
-switch (userInput.toUpperCase()) {
-case 'YES':
-case 'Y':
-  score++;
-  alert('Burger is the besttt');
-  break;
-case 'NO':
-case 'N':
-  alert('I think I am going to eat you');
-  break;
-}
+  switch (userInput.toUpperCase()) {
+  case 'YES':
+  case 'Y':
+    score++;
+    alert('Burger is the besttt');
+    break;
+  case 'NO':
+  case 'N':
+    alert('I think I am going to eat you');
+    break;
+  }
 }
 fifthQue (question5);
 console.log(score);
@@ -140,24 +140,24 @@ function sixthQue(userInput) {
 
 
 
-for (let i = 0; i < 4; i++) {
-  if (userInput > 17) {
-    alert('You Missed Bro, it is less than ' + userInput);
-    userInput = prompt('Guess again!');
-    count++;
-  } else if (userInput < 17) {
-    alert('You Missed Bro, it is Higher than ' + userInput);
-    userInput = prompt('Guess again!');
-    count++;
-  } else {
-    score++;
-    alert('Man, it seems you are living in my mind ' + 'Your score now is ' + score);
-    break;
+  for (let i = 0; i < 4; i++) {
+    if (userInput > 17) {
+      alert('You Missed Bro, it is less than ' + userInput);
+      userInput = prompt('Guess again!');
+      count++;
+    } else if (userInput < 17) {
+      alert('You Missed Bro, it is Higher than ' + userInput);
+      userInput = prompt('Guess again!');
+      count++;
+    } else {
+      score++;
+      alert('Man, it seems you are living in my mind ' + 'Your score now is ' + score);
+      break;
+    }
   }
-}
-if (count == 4) {
-  alert('The number is 17 Habibi');
-}
+  if (count == 4) {
+    alert('The number is 17 Habibi');
+  }
 }
 sixthQue (question6);
 console.log(score);
@@ -171,21 +171,21 @@ answer = answer.toUpperCase();
 let counter = 0;
 function seventhQue(userInput){
 
-for (let i = 0; i < 6; i++) {
-  if (answer === nFood[0] || answer === nFood[1] || answer === nFood[2] || answer === nFood[3] || answer === nFood[4] || answer === nFood[5]) {
-    alert('Correct ' + answer + ' is one of the favorite food');
-    score++;
-    break;
-  } else {
-    alert('No Dude, ' + answer + ' is not my favorite food');
-    answer = prompt('Please, Guess again!');
-    counter++;
+  for (let i = 0; i < 6; i++) {
+    if (answer === nFood[0] || answer === nFood[1] || answer === nFood[2] || answer === nFood[3] || answer === nFood[4] || answer === nFood[5]) {
+      alert('Correct ' + answer + ' is one of the favorite food');
+      score++;
+      break;
+    } else {
+      alert('No Dude, ' + answer + ' is not my favorite food');
+      answer = prompt('Please, Guess again!');
+      counter++;
+    }
   }
-}
 
-if (counter == 6) {
-  alert('You have consumed all your guesses and my favorite food are the following \nMunsef, Burger, Shawerma, Fries, Fish and Maqlobeh');
-}
+  if (counter == 6) {
+    alert('You have consumed all your guesses and my favorite food are the following \nMunsef, Burger, Shawerma, Fries, Fish and Maqlobeh');
+  }
 }
 seventhQue(question7);
 console.log(score);
