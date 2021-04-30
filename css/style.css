@@ -50,7 +50,6 @@ main img {
 
 #intro {
     font-family: cursive;
-    text-align: center;
     color: #ffffff;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -58,7 +57,6 @@ main img {
 
 .uni{
     font-family: cursive;
-    text-align: center;
     color: #ffffff;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -66,7 +64,6 @@ main img {
 
 .work{
     font-family: cursive;
-    text-align: center;
     color: #ffffff;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -74,7 +71,6 @@ main img {
 
 .hobbies {
     font-family: cursive;
-    text-align: center;
     color: #ffffff;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -113,6 +109,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-family: cursive;
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
